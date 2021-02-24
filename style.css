@@ -1,0 +1,40 @@
+.nav_Images{
+    width: 110px;
+}
+body{
+    padding: 20px;
+}
+.search_button{
+    background-color: #F06C4E;
+    color: white;
+}
+#food-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+.img-name{
+    width: 300px;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 30px;
+    
+}
+.img-name img{
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+}
+.info-food{
+    width: 400px;
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+.info-food img{
+    width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+}
